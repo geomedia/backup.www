@@ -1,0 +1,4 @@
+109.2.99.114 134.158.33.103 - - [22/Sep/2015:15:52:02 +0200] "GET /RSSAgregate/flux/highchart HTTP/1.1" 200 606 "https://www.google.fr" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0" 
+109.2.99.114 134.158.33.103 - - [22/Sep/2015:15:52:05 +0200] "GET /RSSAgregate/ress/style.css HTTP/1.1" 200 3491 "http://geomedia.huma-num.fr/RSSAgregate/flux/highchart" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0" 
+109.2.99.114 134.158.33.103 - - [22/Sep/2015:15:52:08 +0200] "GET /RSSAgregate/ress/img/logo_mastervert.png HTTP/1.1" 200 11092 "http://geomedia.huma-num.fr/RSSAgregate/flux/highchart" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0" 
+109.2.99.114 134.158.33.103 - - [22/Sep/2015:15:52:09 +0200] "GET /favicon.ico HTTP/1.1" 404 209 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0" 

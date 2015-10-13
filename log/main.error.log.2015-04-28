@@ -1,0 +1,35 @@
+[Mon Apr 27 15:27:20.570993 2015] [proxy_ajp:error] [pid 36481:tid 140058264749824] [client 194.199.27.179:33289] AH00992: ajp_read_header: ajp_ilink_receive failed, referer: http://geomedia.huma-num.fr/RSSAgregate/item
+[Mon Apr 27 15:27:20.571703 2015] [proxy_ajp:error] [pid 36481:tid 140058264749824] (120006)APR does not understand this error code: [client 194.199.27.179:33289] AH00878: read response failed from 134.158.33.105:12709 (cchumweb05.in2p3.fr), referer: http://geomedia.huma-num.fr/RSSAgregate/item
+[Mon Apr 27 15:27:24.455329 2015] [proxy:error] [pid 36479:tid 140058639017728] (111)Connection refused: AH00957: AJP: attempt to connect to 134.158.33.105:12709 (cchumweb05.in2p3.fr) failed
+[Mon Apr 27 15:27:24.455987 2015] [proxy:error] [pid 36479:tid 140058639017728] AH00959: ap_proxy_connect_backend disabling worker for (cchumweb05.in2p3.fr) for 30s
+[Mon Apr 27 15:27:24.456323 2015] [proxy_ajp:error] [pid 36479:tid 140058639017728] [client 194.199.27.179:33504] AH00896: failed to make connection to backend: cchumweb05.in2p3.fr, referer: http://geomedia.huma-num.fr/RSSAgregate/item
+[Mon Apr 27 15:27:24.462770 2015] [proxy:error] [pid 36494:tid 140058285729536] (111)Connection refused: AH00957: AJP: attempt to connect to 134.158.33.105:12709 (cchumweb05.in2p3.fr) failed
+[Mon Apr 27 15:27:24.463212 2015] [proxy:error] [pid 36494:tid 140058285729536] AH00959: ap_proxy_connect_backend disabling worker for (cchumweb05.in2p3.fr) for 30s
+[Mon Apr 27 15:27:24.463608 2015] [proxy_ajp:error] [pid 36494:tid 140058285729536] [client 194.199.27.179:33505] AH00896: failed to make connection to backend: cchumweb05.in2p3.fr, referer: http://geomedia.huma-num.fr/RSSAgregate/item
+[Mon Apr 27 15:27:28.184942 2015] [proxy:error] [pid 36486:tid 140058233280256] (111)Connection refused: AH00957: AJP: attempt to connect to 134.158.33.105:12709 (cchumweb05.in2p3.fr) failed
+[Mon Apr 27 15:27:28.185625 2015] [proxy:error] [pid 36486:tid 140058233280256] AH00959: ap_proxy_connect_backend disabling worker for (cchumweb05.in2p3.fr) for 30s
+[Mon Apr 27 15:27:28.185964 2015] [proxy_ajp:error] [pid 36486:tid 140058233280256] [client 194.199.27.179:33584] AH00896: failed to make connection to backend: cchumweb05.in2p3.fr, referer: http://geomedia.huma-num.fr/RSSAgregate/item
+[Mon Apr 27 15:27:32.894817 2015] [proxy:error] [pid 36485:tid 140058474546944] (111)Connection refused: AH00957: AJP: attempt to connect to 134.158.33.105:12709 (cchumweb05.in2p3.fr) failed
+[Mon Apr 27 15:27:32.895336 2015] [proxy:error] [pid 36485:tid 140058474546944] AH00959: ap_proxy_connect_backend disabling worker for (cchumweb05.in2p3.fr) for 30s
+[Mon Apr 27 15:27:32.895737 2015] [proxy_ajp:error] [pid 36485:tid 140058474546944] [client 194.199.27.179:33698] AH00896: failed to make connection to backend: cchumweb05.in2p3.fr, referer: http://geomedia.huma-num.fr/RSSAgregate/item
+[Mon Apr 27 15:27:34.468941 2015] [proxy:error] [pid 36494:tid 140058254259968] AH00940: AJP: disabled connection for (cchumweb05.in2p3.fr)
+[Mon Apr 27 15:27:48.612344 2015] [proxy:error] [pid 36118:tid 140058432587520] (111)Connection refused: AH00957: AJP: attempt to connect to 134.158.33.105:12709 (cchumweb05.in2p3.fr) failed
+[Mon Apr 27 15:27:48.613051 2015] [proxy:error] [pid 36118:tid 140058432587520] AH00959: ap_proxy_connect_backend disabling worker for (cchumweb05.in2p3.fr) for 30s
+[Mon Apr 27 15:27:48.613527 2015] [proxy_ajp:error] [pid 36118:tid 140058432587520] [client 194.199.27.179:33959] AH00896: failed to make connection to backend: cchumweb05.in2p3.fr, referer: http://geomedia.huma-num.fr/RSSAgregate/item
+[Mon Apr 27 15:27:51.469564 2015] [proxy:error] [pid 36482:tid 140058243770112] (111)Connection refused: AH00957: AJP: attempt to connect to 134.158.33.105:12709 (cchumweb05.in2p3.fr) failed
+[Mon Apr 27 15:27:51.470038 2015] [proxy:error] [pid 36482:tid 140058243770112] AH00959: ap_proxy_connect_backend disabling worker for (cchumweb05.in2p3.fr) for 30s
+[Mon Apr 27 15:27:51.470429 2015] [proxy_ajp:error] [pid 36482:tid 140058243770112] [client 194.199.27.179:34045] AH00896: failed to make connection to backend: cchumweb05.in2p3.fr, referer: http://geomedia.huma-num.fr/RSSAgregate/item
+[Mon Apr 27 15:27:56.315919 2015] [proxy:error] [pid 36494:tid 140058327688960] (111)Connection refused: AH00957: AJP: attempt to connect to 134.158.33.105:12709 (cchumweb05.in2p3.fr) failed
+[Mon Apr 27 15:27:56.316679 2015] [proxy:error] [pid 36494:tid 140058327688960] AH00959: ap_proxy_connect_backend disabling worker for (cchumweb05.in2p3.fr) for 30s
+[Mon Apr 27 15:27:56.317118 2015] [proxy_ajp:error] [pid 36494:tid 140058327688960] [client 194.199.27.179:34154] AH00896: failed to make connection to backend: cchumweb05.in2p3.fr, referer: http://geomedia.huma-num.fr/RSSAgregate/item
+[Mon Apr 27 15:27:59.354775 2015] [proxy:error] [pid 36479:tid 140058348668672] (111)Connection refused: AH00957: AJP: attempt to connect to 134.158.33.105:12709 (cchumweb05.in2p3.fr) failed
+[Mon Apr 27 15:27:59.355411 2015] [proxy:error] [pid 36479:tid 140058348668672] AH00959: ap_proxy_connect_backend disabling worker for (cchumweb05.in2p3.fr) for 30s
+[Mon Apr 27 15:27:59.355749 2015] [proxy_ajp:error] [pid 36479:tid 140058348668672] [client 194.199.27.179:34207] AH00896: failed to make connection to backend: cchumweb05.in2p3.fr, referer: http://geomedia.huma-num.fr/RSSAgregate/item
+[Mon Apr 27 15:27:59.661543 2015] [proxy:error] [pid 36118:tid 140058369648384] AH00940: AJP: disabled connection for (cchumweb05.in2p3.fr)
+[Mon Apr 27 15:28:04.206734 2015] [proxy:error] [pid 36482:tid 140058422097664] AH00940: AJP: disabled connection for (cchumweb05.in2p3.fr)
+[Mon Apr 27 15:28:25.779144 2015] [proxy:error] [pid 36485:tid 140058117891840] (111)Connection refused: AH00957: AJP: attempt to connect to 134.158.33.105:12709 (cchumweb05.in2p3.fr) failed
+[Mon Apr 27 15:28:25.779640 2015] [proxy:error] [pid 36485:tid 140058117891840] AH00959: ap_proxy_connect_backend disabling worker for (cchumweb05.in2p3.fr) for 30s
+[Mon Apr 27 15:28:25.779925 2015] [proxy_ajp:error] [pid 36485:tid 140058117891840] [client 194.199.27.179:34688] AH00896: failed to make connection to backend: cchumweb05.in2p3.fr, referer: http://geomedia.huma-num.fr/RSSAgregate/item
+[Mon Apr 27 15:28:50.483134 2015] [proxy:error] [pid 36477:tid 140058432587520] (111)Connection refused: AH00957: AJP: attempt to connect to 134.158.33.105:12709 (cchumweb05.in2p3.fr) failed
+[Mon Apr 27 15:28:50.483869 2015] [proxy:error] [pid 36477:tid 140058432587520] AH00959: ap_proxy_connect_backend disabling worker for (cchumweb05.in2p3.fr) for 30s
+[Mon Apr 27 15:28:50.484353 2015] [proxy_ajp:error] [pid 36477:tid 140058432587520] [client 194.199.27.179:35105] AH00896: failed to make connection to backend: cchumweb05.in2p3.fr

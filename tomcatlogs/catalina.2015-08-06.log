@@ -1,0 +1,56 @@
+Aug 06, 2015 12:12:05 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Aug 06, 2015 12:12:05 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-12780"]
+Aug 06, 2015 12:12:05 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-12709"]
+Aug 06, 2015 12:12:05 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Aug 06, 2015 12:12:08 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-12780"]
+Aug 06, 2015 12:12:08 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-12709"]
+Aug 06, 2015 12:12:08 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-12780"]
+Aug 06, 2015 12:12:08 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-12709"]
+Aug 06, 2015 12:25:03 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Aug 06, 2015 12:25:04 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-12780"]
+Aug 06, 2015 12:25:04 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-12709"]
+Aug 06, 2015 12:25:04 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1596 ms
+Aug 06, 2015 12:25:04 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 06, 2015 12:25:04 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.42
+Aug 06, 2015 12:25:04 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/HelloWorldDeployTest.war
+Aug 06, 2015 12:34:44 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [578,851] milliseconds.
+Aug 06, 2015 12:34:44 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/RSSAgregate.war
+Aug 06, 2015 12:35:00 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/geotest.war
+Aug 06, 2015 12:35:02 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/hellotest.war
+Aug 06, 2015 12:35:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/ROOT
+Aug 06, 2015 12:35:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/docs
+Aug 06, 2015 12:35:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/examples
+Aug 06, 2015 12:35:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/host-manager
+Aug 06, 2015 12:35:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/manager
+Aug 06, 2015 12:35:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/restarter
+Aug 06, 2015 12:35:02 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-12780"]
+Aug 06, 2015 12:35:02 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-12709"]
+Aug 06, 2015 12:35:02 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 598551 ms

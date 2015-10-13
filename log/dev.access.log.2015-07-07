@@ -1,0 +1,5 @@
+83.153.95.169 134.158.33.104 - - [06/Jul/2015:14:56:11 +0200] "GET / HTTP/1.1" 200 19 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36" 
+83.153.95.169 134.158.33.104 - - [06/Jul/2015:14:56:11 +0200] "GET /favicon.ico HTTP/1.1" 404 209 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36" 
+83.153.95.169 134.158.33.104 - - [06/Jul/2015:14:57:56 +0200] "GET /manager HTTP/1.1" 404 205 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36" 
+140.77.94.67 134.158.33.103 - - [06/Jul/2015:17:05:41 +0200] "GET / HTTP/1.1" 200 19 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/7.1.7 Safari/537.85.16" 
+140.77.94.67 134.158.33.103 - - [06/Jul/2015:17:05:42 +0200] "GET /favicon.ico HTTP/1.1" 404 209 "http://dev.geomedia.huma-num.fr/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/7.1.7 Safari/537.85.16" 

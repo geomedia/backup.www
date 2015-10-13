@@ -1,0 +1,5 @@
+66.249.73.187 134.158.33.103 - - [08/Oct/2015:10:10:48 +0200] "GET /robots.txt HTTP/1.1" 404 208 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 
+66.249.73.179 134.158.33.103 - - [08/Oct/2015:10:10:48 +0200] "GET / HTTP/1.1" 302 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 
+66.249.73.179 134.158.33.103 - - [08/Oct/2015:10:10:49 +0200] "GET /admin/users/login HTTP/1.1" 404 215 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 
+66.249.73.187 134.158.33.103 - - [08/Oct/2015:13:13:30 +0200] "GET /manager/ HTTP/1.1" 302 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 
+66.249.73.195 134.158.33.104 - - [08/Oct/2015:13:13:31 +0200] "GET /manager/html;jsessionid=D46EA7E6C29E821BFC5FB9751D03EFE9?org.apache.catalina.filters.CSRF_NONCE=DAC6D66047C6DDACD82BE1CD6B22009E HTTP/1.1" 401 2474 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 

@@ -1,0 +1,2 @@
+[Mon Sep 14 11:03:51.897175 2015] [proxy_ajp:error] [pid 8921:tid 140116276258560] [client 134.158.32.252:39766] AH01012: ajp_handle_cping_cpong: ajp_ilink_receive failed
+[Mon Sep 14 11:03:51.897898 2015] [proxy_ajp:error] [pid 8921:tid 140116276258560] (70007)The timeout specified has expired: [client 134.158.32.252:39766] AH00897: cping/cpong failed to 192.168.33.105:12709 (cchumweb05i)

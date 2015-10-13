@@ -1,0 +1,331 @@
+Aug 24, 2015 8:56:12 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Aug 24, 2015 8:56:12 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-12780"]
+Aug 24, 2015 8:56:12 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-12709"]
+Aug 24, 2015 8:56:12 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Aug 24, 2015 8:56:13 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/RSSAgregate] appears to have started a thread named [pool-11-thread-2] but has failed to stop it. This is very likely to create a memory leak.
+Aug 24, 2015 8:56:13 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/RSSAgregate] appears to have started a thread named [pool-11-thread-3] but has failed to stop it. This is very likely to create a memory leak.
+Aug 24, 2015 8:56:13 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/RSSAgregate] appears to have started a thread named [pool-11-thread-4] but has failed to stop it. This is very likely to create a memory leak.
+Aug 24, 2015 8:56:13 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/RSSAgregate] appears to have started a thread named [pool-4963-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+Aug 24, 2015 8:56:13 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/RSSAgregate] appears to have started a thread named [pool-11668-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+Aug 24, 2015 8:56:13 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/RSSAgregate] appears to have started a thread named [pool-28825-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+Aug 24, 2015 8:56:13 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-12780"]
+Aug 24, 2015 8:56:13 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-12709"]
+Aug 24, 2015 8:56:13 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-12780"]
+Aug 24, 2015 8:56:13 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-12709"]
+août 24, 2015 9:09:39 AM org.apache.catalina.core.AprLifecycleListener init
+INFOS: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+août 24, 2015 9:09:40 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-bio-12780"]
+août 24, 2015 9:09:40 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-bio-12709"]
+août 24, 2015 9:09:40 AM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 1209 ms
+août 24, 2015 9:09:40 AM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+août 24, 2015 9:09:40 AM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat/7.0.42
+août 24, 2015 9:09:40 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/HelloWorldDeployTest.war de l'application web
+août 24, 2015 9:09:41 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/RSSAgregate.war de l'application web
+août 24, 2015 9:09:57 AM rssagregator.servlet.StartServlet contextInitialized
+GRAVE: null
+java.lang.NullPointerException
+	at rssagregator.dao.DAOConf.charger(DAOConf.java:81)
+	at rssagregator.servlet.StartServlet.contextInitialized(StartServlet.java:79)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:976)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1653)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+août 24, 2015 9:09:58 AM rssagregator.servlet.StartServlet contextInitialized
+GRAVE: null
+java.lang.NullPointerException
+	at rssagregator.dao.DAOUser.findPrMail(DAOUser.java:33)
+	at rssagregator.dao.DAOConf.verifRootAccount(DAOConf.java:231)
+	at rssagregator.servlet.StartServlet.contextInitialized(StartServlet.java:93)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:976)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1653)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+août 24, 2015 9:09:58 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/geotest.war de l'application web
+août 24, 2015 9:09:59 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/hellotest.war de l'application web
+août 24, 2015 9:10:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/ROOT de l'application web
+août 24, 2015 9:10:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/docs de l'application web
+août 24, 2015 9:10:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/examples de l'application web
+août 24, 2015 9:10:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/host-manager de l'application web
+août 24, 2015 9:10:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/manager de l'application web
+août 24, 2015 9:10:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/restarter de l'application web
+août 24, 2015 9:10:00 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-bio-12780"]
+août 24, 2015 9:10:00 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-bio-12709"]
+août 24, 2015 9:10:00 AM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 20627 ms
+août 24, 2015 9:15:47 AM org.apache.catalina.core.StandardServer await
+INFOS: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+août 24, 2015 9:15:47 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["http-bio-12780"]
+août 24, 2015 9:15:47 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["ajp-bio-12709"]
+août 24, 2015 9:15:47 AM org.apache.catalina.core.StandardService stopInternal
+INFOS: Arrêt du service Catalina
+août 24, 2015 9:15:47 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["http-bio-12780"]
+août 24, 2015 9:15:47 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["ajp-bio-12709"]
+août 24, 2015 9:15:48 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["http-bio-12780"]
+août 24, 2015 9:15:48 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["ajp-bio-12709"]
+août 24, 2015 9:16:41 AM org.apache.catalina.core.AprLifecycleListener init
+INFOS: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+août 24, 2015 9:16:41 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-bio-12780"]
+août 24, 2015 9:16:41 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-bio-12709"]
+août 24, 2015 9:16:41 AM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 784 ms
+août 24, 2015 9:16:41 AM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+août 24, 2015 9:16:41 AM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat/7.0.42
+août 24, 2015 9:16:41 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/HelloWorldDeployTest.war de l'application web
+août 24, 2015 9:17:00 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFOS: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [17 773] milliseconds.
+août 24, 2015 9:17:00 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/RSSAgregate.war de l'application web
+août 24, 2015 9:17:11 AM rssagregator.servlet.StartServlet contextInitialized
+GRAVE: null
+java.lang.NullPointerException
+	at rssagregator.dao.DAOConf.charger(DAOConf.java:81)
+	at rssagregator.servlet.StartServlet.contextInitialized(StartServlet.java:79)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:976)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1653)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+août 24, 2015 9:17:12 AM rssagregator.servlet.StartServlet contextInitialized
+GRAVE: null
+java.lang.NullPointerException
+	at rssagregator.dao.DAOUser.findPrMail(DAOUser.java:33)
+	at rssagregator.dao.DAOConf.verifRootAccount(DAOConf.java:231)
+	at rssagregator.servlet.StartServlet.contextInitialized(StartServlet.java:93)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:976)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1653)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+août 24, 2015 9:17:12 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/geotest.war de l'application web
+août 24, 2015 9:17:13 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/hellotest.war de l'application web
+août 24, 2015 9:17:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/ROOT de l'application web
+août 24, 2015 9:17:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/docs de l'application web
+août 24, 2015 9:17:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/examples de l'application web
+août 24, 2015 9:17:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/host-manager de l'application web
+août 24, 2015 9:17:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/manager de l'application web
+août 24, 2015 9:17:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/restarter de l'application web
+août 24, 2015 9:17:14 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-bio-12780"]
+août 24, 2015 9:17:14 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-bio-12709"]
+août 24, 2015 9:17:14 AM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 32776 ms
+août 24, 2015 9:19:19 AM org.apache.catalina.core.AprLifecycleListener init
+INFOS: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+août 24, 2015 9:19:20 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-bio-12780"]
+août 24, 2015 9:19:20 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-bio-12709"]
+août 24, 2015 9:19:20 AM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 984 ms
+août 24, 2015 9:19:20 AM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+août 24, 2015 9:19:20 AM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat/7.0.42
+août 24, 2015 9:19:20 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/HelloWorldDeployTest.war de l'application web
+août 24, 2015 9:19:20 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/RSSAgregate.war de l'application web
+août 24, 2015 9:19:32 AM rssagregator.servlet.StartServlet contextInitialized
+GRAVE: null
+java.lang.NullPointerException
+	at rssagregator.dao.DAOConf.charger(DAOConf.java:81)
+	at rssagregator.servlet.StartServlet.contextInitialized(StartServlet.java:79)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:976)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1653)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+août 24, 2015 9:19:32 AM rssagregator.servlet.StartServlet contextInitialized
+GRAVE: null
+java.lang.NullPointerException
+	at rssagregator.dao.DAOUser.findPrMail(DAOUser.java:33)
+	at rssagregator.dao.DAOConf.verifRootAccount(DAOConf.java:231)
+	at rssagregator.servlet.StartServlet.contextInitialized(StartServlet.java:93)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:976)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1653)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+août 24, 2015 9:19:33 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/geotest.war de l'application web
+août 24, 2015 9:19:34 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/hellotest.war de l'application web
+août 24, 2015 9:19:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/ROOT de l'application web
+août 24, 2015 9:19:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/docs de l'application web
+août 24, 2015 9:19:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/examples de l'application web
+août 24, 2015 9:19:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/host-manager de l'application web
+août 24, 2015 9:19:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/manager de l'application web
+août 24, 2015 9:19:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/restarter de l'application web
+août 24, 2015 9:19:34 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-bio-12780"]
+août 24, 2015 9:19:34 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-bio-12709"]
+août 24, 2015 9:19:34 AM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 14479 ms
+août 24, 2015 9:33:20 AM org.apache.catalina.core.StandardServer await
+INFOS: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+août 24, 2015 9:33:20 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["http-bio-12780"]
+août 24, 2015 9:33:20 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["ajp-bio-12709"]
+août 24, 2015 9:33:20 AM org.apache.catalina.core.StandardService stopInternal
+INFOS: Arrêt du service Catalina
+août 24, 2015 9:33:20 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["http-bio-12780"]
+août 24, 2015 9:33:20 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["ajp-bio-12709"]
+août 24, 2015 9:33:20 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["http-bio-12780"]
+août 24, 2015 9:33:20 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["ajp-bio-12709"]
+août 24, 2015 9:36:49 AM org.apache.catalina.core.AprLifecycleListener init
+INFOS: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+août 24, 2015 9:36:50 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-bio-12780"]
+août 24, 2015 9:36:50 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-bio-12709"]
+août 24, 2015 9:36:50 AM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 879 ms
+août 24, 2015 9:36:50 AM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+août 24, 2015 9:36:50 AM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat/7.0.42
+août 24, 2015 9:36:50 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/HelloWorldDeployTest.war de l'application web
+août 24, 2015 9:36:50 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/RSSAgregate.war de l'application web
+août 24, 2015 9:37:06 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/geotest.war de l'application web
+août 24, 2015 9:37:06 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/hellotest.war de l'application web
+août 24, 2015 9:37:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/ROOT de l'application web
+août 24, 2015 9:37:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/docs de l'application web
+août 24, 2015 9:37:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/examples de l'application web
+août 24, 2015 9:37:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/host-manager de l'application web
+août 24, 2015 9:37:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/manager de l'application web
+août 24, 2015 9:37:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/restarter de l'application web
+août 24, 2015 9:37:07 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-bio-12780"]
+août 24, 2015 9:37:07 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-bio-12709"]
+août 24, 2015 9:37:07 AM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 17106 ms

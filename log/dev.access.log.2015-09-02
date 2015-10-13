@@ -1,0 +1,3 @@
+193.49.21.41 134.158.33.103 - - [01/Sep/2015:12:06:19 +0200] "GET / HTTP/1.1" 200 19 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0" 
+193.49.21.41 134.158.33.103 - - [01/Sep/2015:12:06:19 +0200] "GET /favicon.ico HTTP/1.1" 404 209 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0" 
+193.49.21.41 134.158.33.103 - - [01/Sep/2015:12:06:19 +0200] "GET /favicon.ico HTTP/1.1" 404 209 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0" 

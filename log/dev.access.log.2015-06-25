@@ -1,0 +1,2 @@
+194.199.27.218 134.158.33.103 - - [24/Jun/2015:14:21:26 +0200] "GET /RSSAgregate/ HTTP/1.1" 404 210 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36" 
+194.199.27.218 134.158.33.103 - - [24/Jun/2015:14:21:27 +0200] "GET /favicon.ico HTTP/1.1" 404 209 "http://dev.geomedia.huma-num.fr/RSSAgregate/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36" 

@@ -1,0 +1,6 @@
+66.249.64.117 134.158.33.103 - - [03/Oct/2015:08:36:34 +0200] "GET /robots.txt HTTP/1.1" 404 208 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 
+66.249.64.112 134.158.33.103 - - [03/Oct/2015:08:36:34 +0200] "GET /RSSAgregate/flux/highchart HTTP/1.1" 200 606 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 
+66.249.64.112 134.158.33.103 - - [03/Oct/2015:09:39:04 +0200] "GET /RSSAgregate/ress/style.css HTTP/1.1" 200 3491 "http://geomedia.huma-num.fr/RSSAgregate/flux/highchart" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 
+66.249.64.117 134.158.33.103 - - [03/Oct/2015:17:17:02 +0200] "GET /RSSAgregate/ress/img/logo_mastervert.png HTTP/1.1" 200 11092 "-" "Googlebot-Image/1.0" 
+66.249.64.117 134.158.33.103 - - [03/Oct/2015:21:31:42 +0200] "GET /robots.txt HTTP/1.1" 404 208 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 
+66.249.64.117 134.158.33.103 - - [03/Oct/2015:21:31:42 +0200] "GET /RSSAgregate/index HTTP/1.1" 200 595 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 

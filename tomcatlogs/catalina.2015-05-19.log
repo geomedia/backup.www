@@ -1,0 +1,234 @@
+May 19, 2015 10:36:30 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-12780"]
+May 19, 2015 10:36:30 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-12709"]
+May 19, 2015 10:36:30 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 19, 2015 10:36:33 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+WARNING: JDBC driver de-registration failed for web application [/RSSAgregate]
+java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoader.clearReferencesJdbc(WebappClassLoader.java:2054)
+	at org.apache.catalina.loader.WebappClassLoader.clearReferences(WebappClassLoader.java:1990)
+	at org.apache.catalina.loader.WebappClassLoader.stop(WebappClassLoader.java:1902)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:662)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5669)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+May 19, 2015 10:36:33 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/RSSAgregate] appears to have started a thread named [pool-11-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+May 19, 2015 10:36:33 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/RSSAgregate] appears to have started a thread named [pool-108093-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+May 19, 2015 10:36:33 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+WARNING: JDBC driver de-registration failed for web application [/docs]
+java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoader.clearReferencesJdbc(WebappClassLoader.java:2054)
+	at org.apache.catalina.loader.WebappClassLoader.clearReferences(WebappClassLoader.java:1990)
+	at org.apache.catalina.loader.WebappClassLoader.stop(WebappClassLoader.java:1902)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:662)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5669)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+May 19, 2015 10:36:33 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+WARNING: JDBC driver de-registration failed for web application [/geotest]
+java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoader.clearReferencesJdbc(WebappClassLoader.java:2054)
+	at org.apache.catalina.loader.WebappClassLoader.clearReferences(WebappClassLoader.java:1990)
+	at org.apache.catalina.loader.WebappClassLoader.stop(WebappClassLoader.java:1902)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:662)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5669)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+May 19, 2015 10:36:33 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+WARNING: JDBC driver de-registration failed for web application [/restarter]
+java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoader.clearReferencesJdbc(WebappClassLoader.java:2054)
+	at org.apache.catalina.loader.WebappClassLoader.clearReferences(WebappClassLoader.java:1990)
+	at org.apache.catalina.loader.WebappClassLoader.stop(WebappClassLoader.java:1902)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:662)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5669)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+May 19, 2015 10:36:33 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+WARNING: JDBC driver de-registration failed for web application [/examples]
+java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoader.clearReferencesJdbc(WebappClassLoader.java:2054)
+	at org.apache.catalina.loader.WebappClassLoader.clearReferences(WebappClassLoader.java:1990)
+	at org.apache.catalina.loader.WebappClassLoader.stop(WebappClassLoader.java:1902)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:662)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5669)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+May 19, 2015 10:36:33 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+WARNING: JDBC driver de-registration failed for web application [/host-manager]
+java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoader.clearReferencesJdbc(WebappClassLoader.java:2054)
+	at org.apache.catalina.loader.WebappClassLoader.clearReferences(WebappClassLoader.java:1990)
+	at org.apache.catalina.loader.WebappClassLoader.stop(WebappClassLoader.java:1902)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:662)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5669)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+May 19, 2015 10:36:33 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+WARNING: JDBC driver de-registration failed for web application [/HelloWorldDeployTest]
+java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoader.clearReferencesJdbc(WebappClassLoader.java:2054)
+	at org.apache.catalina.loader.WebappClassLoader.clearReferences(WebappClassLoader.java:1990)
+	at org.apache.catalina.loader.WebappClassLoader.stop(WebappClassLoader.java:1902)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:662)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5669)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+May 19, 2015 10:36:33 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+WARNING: JDBC driver de-registration failed for web application [/hellotest]
+java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoader.clearReferencesJdbc(WebappClassLoader.java:2054)
+	at org.apache.catalina.loader.WebappClassLoader.clearReferences(WebappClassLoader.java:1990)
+	at org.apache.catalina.loader.WebappClassLoader.stop(WebappClassLoader.java:1902)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:662)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5669)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+May 19, 2015 10:36:33 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-12780"]
+May 19, 2015 10:36:33 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-12709"]
+May 19, 2015 10:36:33 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-12780"]
+May 19, 2015 10:36:33 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-12709"]
+May 19, 2015 3:33:38 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+May 19, 2015 3:33:38 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-12780"]
+May 19, 2015 3:33:38 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-12709"]
+May 19, 2015 3:33:38 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1147 ms
+May 19, 2015 3:33:38 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 19, 2015 3:33:38 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.42
+May 19, 2015 3:33:38 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/HelloWorldDeployTest.war
+May 19, 2015 3:44:58 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [678,775] milliseconds.
+May 19, 2015 3:44:58 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/RSSAgregate.war
+May 19, 2015 3:45:15 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/geotest.war
+May 19, 2015 3:45:16 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/hellotest.war
+May 19, 2015 3:45:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/ROOT
+May 19, 2015 3:45:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/docs
+May 19, 2015 3:45:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/examples
+May 19, 2015 3:45:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/host-manager
+May 19, 2015 3:45:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/manager
+May 19, 2015 3:45:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/restarter
+May 19, 2015 3:45:17 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-12780"]
+May 19, 2015 3:45:17 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-12709"]
+May 19, 2015 3:45:17 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 698701 ms
+May 19, 2015 6:22:38 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+May 19, 2015 6:22:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-12780"]
+May 19, 2015 6:22:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-12709"]
+May 19, 2015 6:22:39 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1176 ms
+May 19, 2015 6:22:39 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 19, 2015 6:22:39 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.42
+May 19, 2015 6:22:39 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/HelloWorldDeployTest.war
+May 19, 2015 6:26:14 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [214,687] milliseconds.
+May 19, 2015 6:26:14 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/RSSAgregate.war
+May 19, 2015 6:26:32 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/geotest.war
+May 19, 2015 6:26:34 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/hellotest.war
+May 19, 2015 6:26:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/ROOT
+May 19, 2015 6:26:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/docs
+May 19, 2015 6:26:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/examples
+May 19, 2015 6:26:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/host-manager
+May 19, 2015 6:26:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/manager
+May 19, 2015 6:26:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/restarter
+May 19, 2015 6:26:34 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-12780"]
+May 19, 2015 6:26:34 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-12709"]
+May 19, 2015 6:26:34 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 235675 ms

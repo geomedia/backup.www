@@ -1,0 +1,240 @@
+Sep 01, 2015 12:13:12 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Sep 01, 2015 12:13:13 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-12780"]
+Sep 01, 2015 12:13:13 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-12780"]
+java.net.BindException: Address already in use <null>:12780
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:640)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:665)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 17 more
+
+Sep 01, 2015 12:13:13 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-12780]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-12780]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:640)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:665)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use <null>:12780
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 17 more
+
+Sep 01, 2015 12:13:13 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-12709"]
+Sep 01, 2015 12:13:13 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-12709"]
+java.net.BindException: Address already in use <null>:12709
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:640)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:665)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+
+Sep 01, 2015 12:13:13 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-12709]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-12709]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:640)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:665)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use <null>:12709
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+
+Sep 01, 2015 12:13:13 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2224 ms
+Sep 01, 2015 12:13:13 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 01, 2015 12:13:13 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.42
+Sep 01, 2015 12:13:13 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/HelloWorldDeployTest.war
+Sep 01, 2015 12:13:14 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/RSSAgregate.war
+sept. 01, 2015 12:13:23 PM org.apache.catalina.core.StandardServer await
+INFOS: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+sept. 01, 2015 12:13:23 PM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["http-bio-12780"]
+sept. 01, 2015 12:13:23 PM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["ajp-bio-12709"]
+sept. 01, 2015 12:13:23 PM org.apache.catalina.core.StandardService stopInternal
+INFOS: Arrêt du service Catalina
+sept. 01, 2015 12:13:23 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/RSSAgregate] appears to have started a thread named [pool-11-thread-4] but has failed to stop it. This is very likely to create a memory leak.
+sept. 01, 2015 12:13:23 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+GRAVE: The web application [/RSSAgregate] appears to have started a thread named [pool-645-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+sept. 01, 2015 12:13:24 PM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["http-bio-12780"]
+sept. 01, 2015 12:13:24 PM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["ajp-bio-12709"]
+sept. 01, 2015 12:13:24 PM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["http-bio-12780"]
+sept. 01, 2015 12:13:24 PM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["ajp-bio-12709"]
+Sep 01, 2015 12:13:34 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/geotest.war
+Sep 01, 2015 12:13:35 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/hellotest.war
+Sep 01, 2015 12:13:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/ROOT
+Sep 01, 2015 12:13:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/docs
+Sep 01, 2015 12:13:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/examples
+Sep 01, 2015 12:13:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/host-manager
+Sep 01, 2015 12:13:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/manager
+Sep 01, 2015 12:13:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/restarter
+Sep 01, 2015 12:13:36 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 22930 ms
+Sep 01, 2015 12:14:13 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-12780"]
+Sep 01, 2015 12:14:13 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-12709"]
+Sep 01, 2015 12:14:13 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 01, 2015 12:14:14 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-12780"]
+Sep 01, 2015 12:14:14 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-12780"]
+Sep 01, 2015 12:14:14 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-12709"]
+Sep 01, 2015 12:14:14 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-12709"]
+Sep 01, 2015 12:14:35 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Sep 01, 2015 12:14:35 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-12780"]
+Sep 01, 2015 12:14:35 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-12709"]
+Sep 01, 2015 12:14:35 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1046 ms
+Sep 01, 2015 12:14:35 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 01, 2015 12:14:35 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.42
+Sep 01, 2015 12:14:35 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/HelloWorldDeployTest.war
+Sep 01, 2015 12:14:36 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/RSSAgregate.war
+Sep 01, 2015 12:14:51 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/geotest.war
+Sep 01, 2015 12:14:52 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/hellotest.war
+Sep 01, 2015 12:14:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/ROOT
+Sep 01, 2015 12:14:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/docs
+Sep 01, 2015 12:14:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/examples
+Sep 01, 2015 12:14:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/host-manager
+Sep 01, 2015 12:14:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/manager
+Sep 01, 2015 12:14:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/restarter
+Sep 01, 2015 12:14:53 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-12780"]
+Sep 01, 2015 12:14:53 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-12709"]
+Sep 01, 2015 12:14:53 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 17309 ms

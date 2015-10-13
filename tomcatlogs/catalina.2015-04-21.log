@@ -1,0 +1,20 @@
+Apr 21, 2015 11:51:42 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Apr 21, 2015 11:51:42 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-12780"]
+Apr 21, 2015 11:51:42 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-12709"]
+Apr 21, 2015 11:51:42 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Apr 21, 2015 11:51:43 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/RSSAgregate] appears to have started a thread named [pool-11-thread-2] but has failed to stop it. This is very likely to create a memory leak.
+Apr 21, 2015 11:51:43 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/RSSAgregate] appears to have started a thread named [pool-27656-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+Apr 21, 2015 11:51:44 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-12780"]
+Apr 21, 2015 11:51:44 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-12709"]
+Apr 21, 2015 11:51:44 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-12780"]
+Apr 21, 2015 11:51:44 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-12709"]

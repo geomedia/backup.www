@@ -1,0 +1,7 @@
+81.194.30.217 134.158.33.103 - - [24/Mar/2015:15:27:08 +0100] "GET / HTTP/1.1" 200 2054 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:36.0) Gecko/20100101 Firefox/36.0" 
+81.194.30.217 134.158.33.103 - - [24/Mar/2015:15:27:09 +0100] "GET /tomcat.css HTTP/1.1" 200 1706 "http://dev.geomedia.huma-num.fr/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:36.0) Gecko/20100101 Firefox/36.0" 
+81.194.30.217 134.158.33.103 - - [24/Mar/2015:15:27:09 +0100] "GET /bg-nav.png HTTP/1.1" 200 1401 "http://dev.geomedia.huma-num.fr/tomcat.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:36.0) Gecko/20100101 Firefox/36.0" 
+r/2015:15:27:09 +0100] "GET /tomcat.png HTTP/1.1" 200 5103 "http://dev.geomedia.huma-num.fr/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:36.0) Gecko/20100101 Firefox/36.0" 
+81.194.30.219 134.158.33.104 - - [24/Mar/2015:15:27:09 +0100] "GET /asf-logo.png HTTP/1.1" 200 17811 "http://dev.geomedia.huma-num.fr/tomcat.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:36.0) Gecko/20100101 Firefox/36.0" 
+81.194.30.217 134.158.33.103 - - [24/Mar/2015:15:27:09 +0100] "GET /bg-upper.png HTTP/1.1" 200 3103 "http://dev.geomedia.huma-num.fr/tomcat.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:36.0) Gecko/20100101 Firefox/36.0" 
+81.194.30.219 134.158.33.104 - - [24/Mar/2015:15:27:09 +0100] "GET /bg-middle.png HTTP/1.1" 200 1918 "http://dev.geomedia.huma-num.fr/tomcat.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:36.0) Gecko/20100101 Firefox/36.0" 

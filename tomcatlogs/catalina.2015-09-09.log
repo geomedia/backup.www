@@ -1,0 +1,70 @@
+Sep 09, 2015 10:30:17 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 09, 2015 10:30:18 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-12780"]
+Sep 09, 2015 10:30:18 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-12709"]
+Sep 09, 2015 10:30:18 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 09, 2015 10:30:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/RSSAgregate] appears to have started a thread named [pool-11-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+Sep 09, 2015 10:30:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/RSSAgregate] appears to have started a thread named [pool-11-thread-2] but has failed to stop it. This is very likely to create a memory leak.
+Sep 09, 2015 10:30:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/RSSAgregate] appears to have started a thread named [pool-11-thread-3] but has failed to stop it. This is very likely to create a memory leak.
+Sep 09, 2015 10:30:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/RSSAgregate] appears to have started a thread named [pool-11-thread-4] but has failed to stop it. This is very likely to create a memory leak.
+Sep 09, 2015 10:30:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/RSSAgregate] appears to have started a thread named [pool-34468-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+Sep 09, 2015 10:30:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/RSSAgregate] appears to have started a thread named [pool-41163-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+Sep 09, 2015 10:30:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/RSSAgregate] appears to have started a thread named [pool-53329-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+Sep 09, 2015 10:30:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/RSSAgregate] appears to have started a thread named [pool-56803-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+Sep 09, 2015 10:30:20 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-12780"]
+Sep 09, 2015 10:30:20 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-12709"]
+Sep 09, 2015 10:30:20 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-12780"]
+Sep 09, 2015 10:30:20 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-12709"]
+Sep 09, 2015 10:31:57 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Sep 09, 2015 10:31:58 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-12780"]
+Sep 09, 2015 10:31:58 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-12709"]
+Sep 09, 2015 10:31:58 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1603 ms
+Sep 09, 2015 10:31:58 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 09, 2015 10:31:58 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.42
+Sep 09, 2015 10:31:58 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/HelloWorldDeployTest.war
+Sep 09, 2015 10:31:59 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/RSSAgregate.war
+Sep 09, 2015 10:32:18 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/geotest.war
+Sep 09, 2015 10:32:19 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/hellotest.war
+Sep 09, 2015 10:32:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/ROOT
+Sep 09, 2015 10:32:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/docs
+Sep 09, 2015 10:32:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/examples
+Sep 09, 2015 10:32:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/host-manager
+Sep 09, 2015 10:32:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/manager
+Sep 09, 2015 10:32:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/resource/tomcat/apache-tomcat-7.0.42/webapps/restarter
+Sep 09, 2015 10:32:20 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-12780"]
+Sep 09, 2015 10:32:20 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-12709"]
+Sep 09, 2015 10:32:20 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 21524 ms

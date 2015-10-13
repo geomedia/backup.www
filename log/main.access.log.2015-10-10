@@ -1,0 +1,2 @@
+66.249.79.194 134.158.33.104 - - [09/Oct/2015:18:41:36 +0200] "GET /robots.txt HTTP/1.1" 404 208 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 
+66.249.79.194 134.158.33.104 - - [09/Oct/2015:18:41:36 +0200] "GET /RSSAgregate/flux/highchart HTTP/1.1" 200 606 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 

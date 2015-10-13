@@ -1,0 +1,64 @@
+Jul 04, 2015 10:43:27 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Jul 04, 2015 10:43:27 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-12780"]
+Jul 04, 2015 10:43:28 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-12709"]
+Jul 04, 2015 10:43:28 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 04, 2015 10:43:28 PM org.apache.catalina.core.StandardWrapper unload
+INFO: Waiting for 1 instance(s) to be deallocated for Servlet [Item]
+Jul 04, 2015 10:43:29 PM org.apache.catalina.core.StandardWrapper unload
+INFO: Waiting for 1 instance(s) to be deallocated for Servlet [Item]
+Jul 04, 2015 10:43:30 PM org.apache.catalina.core.StandardWrapper unload
+INFO: Waiting for 1 instance(s) to be deallocated for Servlet [Item]
+Jul 04, 2015 10:43:30 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/RSSAgregate] appears to have started a thread named [pool-11-thread-4] but has failed to stop it. This is very likely to create a memory leak.
+Jul 04, 2015 10:43:30 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/RSSAgregate] appears to have started a thread named [pool-9046-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+Jul 04, 2015 10:43:32 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-12780"]
+Jul 04, 2015 10:43:32 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-12709"]
+Jul 04, 2015 10:43:32 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-12780"]
+Jul 04, 2015 10:43:32 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-12709"]
+Jul 04, 2015 10:45:06 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 04, 2015 10:45:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-12780"]
+Jul 04, 2015 10:45:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-12709"]
+Jul 04, 2015 10:45:07 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1586 ms
+Jul 04, 2015 10:45:07 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 04, 2015 10:45:07 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.42
+Jul 04, 2015 10:45:07 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/HelloWorldDeployTest.war
+Jul 04, 2015 10:45:08 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/RSSAgregate.war
+Jul 04, 2015 10:45:27 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/geotest.war
+Jul 04, 2015 10:45:28 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/hellotest.war
+Jul 04, 2015 10:45:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/ROOT
+Jul 04, 2015 10:45:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/docs
+Jul 04, 2015 10:45:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/examples
+Jul 04, 2015 10:45:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/host-manager
+Jul 04, 2015 10:45:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/manager
+Jul 04, 2015 10:45:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /sites/geomedia/adonis/apache-tomcat-7.0.42/webapps/restarter
+Jul 04, 2015 10:45:28 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-12780"]
+Jul 04, 2015 10:45:28 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-12709"]
+Jul 04, 2015 10:45:28 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 20965 ms

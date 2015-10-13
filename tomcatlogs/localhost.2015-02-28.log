@@ -1,0 +1,230 @@
+Feb 28, 2015 12:02:14 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [Item] in context with path [/RSSAgregate] threw exception
+javax.persistence.PersistenceException: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.0.v20130507-3faac2b): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: An I/O error occured while sending to the backend.
+Error Code: 0
+Call: SELECT DISTINCT ID AS a1, categorie AS a2, contenu AS a3, datePub AS a4, dateRecup AS a5, description AS a6, guid AS a7, hashContenu AS a8, imported AS a9, link AS a10, MODIFIED AS a11, titre AS a12 FROM item LIMIT ? OFFSET ?
+	bind => [2 parameters bound]
+Query: ReadAllQuery(referenceClass=Item sql="SELECT DISTINCT ID AS a1, categorie AS a2, contenu AS a3, datePub AS a4, dateRecup AS a5, description AS a6, guid AS a7, hashContenu AS a8, imported AS a9, link AS a10, MODIFIED AS a11, titre AS a12 FROM item LIMIT ? OFFSET ?")
+	at org.eclipse.persistence.internal.jpa.QueryImpl.getDetailedException(QueryImpl.java:377)
+	at org.eclipse.persistence.internal.jpa.QueryImpl.executeReadQuery(QueryImpl.java:260)
+	at org.eclipse.persistence.internal.jpa.QueryImpl.getResultList(QueryImpl.java:468)
+	at rssagregator.dao.AbstrDao.findCriteria(AbstrDao.java:255)
+	at rssagregator.utils.ServletTool.actionLIST(ServletTool.java:334)
+	at rssagregator.servlet.ItemSrvl.processRequest(ItemSrvl.java:297)
+	at rssagregator.servlet.ItemSrvl.doGet(ItemSrvl.java:487)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at rssagregator.servlet.FilterIdent.doFilter(FilterIdent.java:65)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:190)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.0.v20130507-3faac2b): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: An I/O error occured while sending to the backend.
+Error Code: 0
+Call: SELECT DISTINCT ID AS a1, categorie AS a2, contenu AS a3, datePub AS a4, dateRecup AS a5, description AS a6, guid AS a7, hashContenu AS a8, imported AS a9, link AS a10, MODIFIED AS a11, titre AS a12 FROM item LIMIT ? OFFSET ?
+	bind => [2 parameters bound]
+Query: ReadAllQuery(referenceClass=Item sql="SELECT DISTINCT ID AS a1, categorie AS a2, contenu AS a3, datePub AS a4, dateRecup AS a5, description AS a6, guid AS a7, hashContenu AS a8, imported AS a9, link AS a10, MODIFIED AS a11, titre AS a12 FROM item LIMIT ? OFFSET ?")
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:340)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.basicExecuteCall(DatabaseAccessor.java:679)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeCall(DatabaseAccessor.java:558)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.basicExecuteCall(AbstractSession.java:1995)
+	at org.eclipse.persistence.sessions.server.ServerSession.executeCall(ServerSession.java:570)
+	at org.eclipse.persistence.sessions.server.ClientSession.executeCall(ClientSession.java:248)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeCall(DatasourceCallQueryMechanism.java:242)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeCall(DatasourceCallQueryMechanism.java:228)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeSelectCall(DatasourceCallQueryMechanism.java:299)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.selectAllRows(DatasourceCallQueryMechanism.java:694)
+	at org.eclipse.persistence.internal.queries.ExpressionQueryMechanism.selectAllRowsFromTable(ExpressionQueryMechanism.java:2714)
+	at org.eclipse.persistence.internal.queries.ExpressionQueryMechanism.selectAllRows(ExpressionQueryMechanism.java:2667)
+	at org.eclipse.persistence.queries.ReadAllQuery.executeObjectLevelReadQuery(ReadAllQuery.java:477)
+	at org.eclipse.persistence.queries.ObjectLevelReadQuery.executeDatabaseQuery(ObjectLevelReadQuery.java:1155)
+	at org.eclipse.persistence.queries.DatabaseQuery.execute(DatabaseQuery.java:899)
+	at org.eclipse.persistence.queries.ObjectLevelReadQuery.execute(ObjectLevelReadQuery.java:1114)
+	at org.eclipse.persistence.queries.ReadAllQuery.execute(ReadAllQuery.java:402)
+	at org.eclipse.persistence.queries.ObjectLevelReadQuery.executeInUnitOfWork(ObjectLevelReadQuery.java:1202)
+	at org.eclipse.persistence.internal.sessions.UnitOfWorkImpl.internalExecuteQuery(UnitOfWorkImpl.java:2894)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1797)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1779)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1744)
+	at org.eclipse.persistence.internal.jpa.QueryImpl.executeReadQuery(QueryImpl.java:258)
+	... 30 more
+Caused by: org.postgresql.util.PSQLException: An I/O error occured while sending to the backend.
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:281)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:510)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:386)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:271)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeSelect(DatabaseAccessor.java:1002)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.basicExecuteCall(DatabaseAccessor.java:641)
+	... 51 more
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at org.postgresql.core.VisibleBufferedInputStream.readMore(VisibleBufferedInputStream.java:143)
+	at org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:112)
+	at org.postgresql.core.VisibleBufferedInputStream.read(VisibleBufferedInputStream.java:71)
+	at org.postgresql.core.PGStream.ReceiveChar(PGStream.java:272)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1659)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:255)
+	... 56 more
+
+Feb 28, 2015 12:02:14 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [Item] in context with path [/RSSAgregate] threw exception
+javax.persistence.PersistenceException: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.0.v20130507-3faac2b): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: An I/O error occured while sending to the backend.
+Error Code: 0
+Call: SELECT DISTINCT ID AS a1, categorie AS a2, contenu AS a3, datePub AS a4, dateRecup AS a5, description AS a6, guid AS a7, hashContenu AS a8, imported AS a9, link AS a10, MODIFIED AS a11, titre AS a12 FROM item LIMIT ? OFFSET ?
+	bind => [2 parameters bound]
+Query: ReadAllQuery(referenceClass=Item sql="SELECT DISTINCT ID AS a1, categorie AS a2, contenu AS a3, datePub AS a4, dateRecup AS a5, description AS a6, guid AS a7, hashContenu AS a8, imported AS a9, link AS a10, MODIFIED AS a11, titre AS a12 FROM item LIMIT ? OFFSET ?")
+	at org.eclipse.persistence.internal.jpa.QueryImpl.getDetailedException(QueryImpl.java:377)
+	at org.eclipse.persistence.internal.jpa.QueryImpl.executeReadQuery(QueryImpl.java:260)
+	at org.eclipse.persistence.internal.jpa.QueryImpl.getResultList(QueryImpl.java:468)
+	at rssagregator.dao.AbstrDao.findCriteria(AbstrDao.java:255)
+	at rssagregator.utils.ServletTool.actionLIST(ServletTool.java:334)
+	at rssagregator.servlet.ItemSrvl.processRequest(ItemSrvl.java:297)
+	at rssagregator.servlet.ItemSrvl.doGet(ItemSrvl.java:487)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at rssagregator.servlet.FilterIdent.doFilter(FilterIdent.java:65)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.ajp.AjpProcessor.process(AjpProcessor.java:190)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.0.v20130507-3faac2b): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: An I/O error occured while sending to the backend.
+Error Code: 0
+Call: SELECT DISTINCT ID AS a1, categorie AS a2, contenu AS a3, datePub AS a4, dateRecup AS a5, description AS a6, guid AS a7, hashContenu AS a8, imported AS a9, link AS a10, MODIFIED AS a11, titre AS a12 FROM item LIMIT ? OFFSET ?
+	bind => [2 parameters bound]
+Query: ReadAllQuery(referenceClass=Item sql="SELECT DISTINCT ID AS a1, categorie AS a2, contenu AS a3, datePub AS a4, dateRecup AS a5, description AS a6, guid AS a7, hashContenu AS a8, imported AS a9, link AS a10, MODIFIED AS a11, titre AS a12 FROM item LIMIT ? OFFSET ?")
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:340)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.basicExecuteCall(DatabaseAccessor.java:679)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeCall(DatabaseAccessor.java:558)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.basicExecuteCall(AbstractSession.java:1995)
+	at org.eclipse.persistence.sessions.server.ServerSession.executeCall(ServerSession.java:570)
+	at org.eclipse.persistence.sessions.server.ClientSession.executeCall(ClientSession.java:248)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeCall(DatasourceCallQueryMechanism.java:242)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeCall(DatasourceCallQueryMechanism.java:228)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.executeSelectCall(DatasourceCallQueryMechanism.java:299)
+	at org.eclipse.persistence.internal.queries.DatasourceCallQueryMechanism.selectAllRows(DatasourceCallQueryMechanism.java:694)
+	at org.eclipse.persistence.internal.queries.ExpressionQueryMechanism.selectAllRowsFromTable(ExpressionQueryMechanism.java:2714)
+	at org.eclipse.persistence.internal.queries.ExpressionQueryMechanism.selectAllRows(ExpressionQueryMechanism.java:2667)
+	at org.eclipse.persistence.queries.ReadAllQuery.executeObjectLevelReadQuery(ReadAllQuery.java:477)
+	at org.eclipse.persistence.queries.ObjectLevelReadQuery.executeDatabaseQuery(ObjectLevelReadQuery.java:1155)
+	at org.eclipse.persistence.queries.DatabaseQuery.execute(DatabaseQuery.java:899)
+	at org.eclipse.persistence.queries.ObjectLevelReadQuery.execute(ObjectLevelReadQuery.java:1114)
+	at org.eclipse.persistence.queries.ReadAllQuery.execute(ReadAllQuery.java:402)
+	at org.eclipse.persistence.queries.ObjectLevelReadQuery.executeInUnitOfWork(ObjectLevelReadQuery.java:1202)
+	at org.eclipse.persistence.internal.sessions.UnitOfWorkImpl.internalExecuteQuery(UnitOfWorkImpl.java:2894)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1797)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1779)
+	at org.eclipse.persistence.internal.sessions.AbstractSession.executeQuery(AbstractSession.java:1744)
+	at org.eclipse.persistence.internal.jpa.QueryImpl.executeReadQuery(QueryImpl.java:258)
+	... 30 more
+Caused by: org.postgresql.util.PSQLException: An I/O error occured while sending to the backend.
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:281)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:510)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:386)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:271)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.executeSelect(DatabaseAccessor.java:1002)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.basicExecuteCall(DatabaseAccessor.java:641)
+	... 51 more
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at org.postgresql.core.VisibleBufferedInputStream.readMore(VisibleBufferedInputStream.java:143)
+	at org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:112)
+	at org.postgresql.core.VisibleBufferedInputStream.read(VisibleBufferedInputStream.java:71)
+	at org.postgresql.core.PGStream.ReceiveChar(PGStream.java:272)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1659)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:255)
+	... 56 more
+
+Feb 28, 2015 12:02:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Feb 28, 2015 12:02:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Feb 28, 2015 12:28:41 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Feb 28, 2015 12:28:41 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Feb 28, 2015 12:28:42 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@6761ee0f')
+Feb 28, 2015 12:28:45 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Feb 28, 2015 12:28:45 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Feb 28, 2015 12:28:45 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@4f0e1702')
+Feb 28, 2015 12:28:45 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Feb 28, 2015 12:28:45 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Feb 28, 2015 12:32:05 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Feb 28, 2015 12:32:05 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Feb 28, 2015 12:32:33 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Feb 28, 2015 12:32:33 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Feb 28, 2015 12:32:33 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@44dacaca')
+Feb 28, 2015 4:26:07 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Feb 28, 2015 4:26:07 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Feb 28, 2015 4:28:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Feb 28, 2015 4:28:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Feb 28, 2015 4:28:16 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@6d6a5ea8')
+Feb 28, 2015 10:47:55 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Feb 28, 2015 10:47:55 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Feb 28, 2015 11:55:04 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Feb 28, 2015 11:55:04 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Feb 28, 2015 11:55:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1fdb119f')

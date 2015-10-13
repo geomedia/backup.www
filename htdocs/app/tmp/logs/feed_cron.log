@@ -1,0 +1,41 @@
+2011-11-15 15:05:58 Feed_cron: Start cron from controller
+2011-11-15 15:06:10 Feed_cron: Start cron from controller
+2011-11-15 15:07:25 Feed_cron: Start cron from controller
+2011-11-15 15:07:55 Feed_cron: Start cron from controller
+2011-11-15 15:07:55 Feed_cron: nohup /Users/ale/Sites/CIST-rsslib/Cake/Console/cake feedcron > /dev/null &
+2011-11-15 15:08:11 Feed_cron: Start cron from controller
+2011-11-15 15:08:11 Feed_cron: nohup /Users/ale/Sites/CIST-rsslib/Cake/Console/cake feedcron > /dev/null &
+2011-11-15 15:08:39 Feed_cron: Start cron from controller
+2011-11-15 15:08:39 Feed_cron: nohup /Users/ale/Sites/CIST-rss/lib/Cake/Console/cake feedcron > /dev/null &
+2011-11-15 15:09:27 Feed_cron: Start cron from controller
+2011-11-15 15:09:27 Feed_cron: nohup /Users/ale/Sites/CIST-rss/lib/Cake/Console/cake feedcron > /dev/null &
+2011-11-15 15:12:18 Feed_cron: Cron started on 2011-11-15 15:12:18
+2011-11-15 15:13:24 Feed_cron: Cron started on 2011-11-15 15:13:24
+2011-11-15 15:21:05 Feed_cron: Start cron from controller
+2011-11-15 15:21:05 Feed_cron: nohup /Users/ale/Sites/CIST-rss/lib/Cake/Console/cake feedcron > /dev/null &
+2011-11-15 15:21:13 Feed_cron: Cron started on 2011-11-15 15:21:13
+2011-11-15 15:21:46 Feed_cron: Cron executed on 2011-11-15 15:21:46
+2011-11-15 15:24:12 Feed_cron: Start cron from controller
+2011-11-15 15:24:12 Feed_cron: nohup /Users/ale/Sites/CIST-rss/lib/Cake/Console/cake -app app feedcron > /dev/null &
+2011-11-15 15:25:22 Feed_cron: Start cron from controller
+2011-11-15 15:25:22 Feed_cron: nohup /Users/ale/Sites/CIST-rss/lib/Cake/Console/cake -app app feedcron > /dev/null &
+2011-11-15 15:25:22 Feed_cron: Cron started on 2011-11-15 15:25:22
+2011-11-15 15:25:45 Feed_cron: Start cron from controller
+2011-11-15 15:25:45 Feed_cron: nohup /Users/ale/Sites/CIST-rss/lib/Cake/Console/cake -app /Users/ale/Sites/CIST-rss/app feedcron > /dev/null &
+2011-11-15 15:25:45 Feed_cron: Cron started on 2011-11-15 15:25:45
+2011-11-15 15:26:05 Feed_cron: Start cron from controller
+2011-11-15 15:26:05 Feed_cron: nohup /Users/ale/Sites/CIST-rss/lib/Cake/Console/cake -app /Users/ale/Sites/CIST-rss/app feedcron > /dev/null &
+2011-11-15 15:26:05 Feed_cron: Cron started on 2011-11-15 15:26:05
+2011-11-15 15:26:10 Feed_cron: Cron executed on 2011-11-15 15:26:10
+2011-11-15 15:26:55 Feed_cron: Cron executed on 2011-11-15 15:26:55
+2011-11-15 15:27:30 Feed_cron: Cron executed on 2011-11-15 15:27:30
+2011-11-15 15:28:04 Feed_cron: Start cron from controller
+2011-11-15 15:28:04 Feed_cron: nohup /Users/ale/Sites/CIST-rss/lib/Cake/Console/cake -app /Users/ale/Sites/CIST-rss/app feedcron > /dev/null &
+2011-11-15 15:28:04 Feed_cron: Cron started on 2011-11-15 15:28:04
+2011-11-15 15:30:06 Feed_cron: Cron executed on 2011-11-15 15:30:06
+2011-11-16 11:23:38 Feed_cron: Start cron from controller
+2011-11-16 11:23:39 Feed_cron: Cron started on 2011-11-16 11:23:39
+2011-11-16 12:43:38 Feed_cron: Cron started on 2011-11-16 12:43:38
+2011-11-17 10:36:51 Feed_cron: Start cron from controller
+2011-11-21 15:41:10 Feed_cron: Start cron from controller
+2011-11-21 15:45:24 Feed_cron: Start cron from controller

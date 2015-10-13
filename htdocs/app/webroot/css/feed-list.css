@@ -1,0 +1,37 @@
+.feed-item {
+	clear: both;
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+	position: relative;
+}
+.feed-item:hover {
+	background: #eee;
+}
+.feed-item .actions {
+	float: right;
+}
+.feed-item h3 {
+	float: left;
+	padding-right: 10px;
+}
+.feed-item .country,
+.feed-item .language,
+.feed-item .type {
+	float: left;
+	padding: 3px 5px 3px 0;
+	color: #666;
+	font-size: 0.8em;
+}
+
+.feed-item .last-update,
+.feed-item .active {
+	float: right;
+	padding: 3px 5px;
+}
+
+.feed-item .actions a {
+	margin: 0 5px;
+	padding: 3px 7px;
+	cursor: pointer;
+}

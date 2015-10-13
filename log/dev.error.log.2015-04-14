@@ -1,0 +1,10 @@
+[Mon Apr 13 16:31:50.487573 2015] [proxy:error] [pid 46003:tid 140002547582720] (111)Connection refused: AH00957: AJP: attempt to connect to 192.168.33.110:12710 (cchumuser01i.in2p3.fr) failed
+[Mon Apr 13 16:31:50.488173 2015] [proxy:error] [pid 46003:tid 140002547582720] AH00959: ap_proxy_connect_backend disabling worker for (cchumuser01i.in2p3.fr) for 30s
+[Mon Apr 13 16:31:50.488512 2015] [proxy_ajp:error] [pid 46003:tid 140002547582720] [client 81.194.30.219:43102] AH00896: failed to make connection to backend: cchumuser01i.in2p3.fr
+[Mon Apr 13 16:31:50.519235 2015] [proxy:error] [pid 46003:tid 140002621011712] AH00940: AJP: disabled connection for (cchumuser01i.in2p3.fr)
+[Mon Apr 13 16:31:50.531022 2015] [proxy:error] [pid 46001:tid 140002537092864] (111)Connection refused: AH00957: AJP: attempt to connect to 192.168.33.110:12710 (cchumuser01i.in2p3.fr) failed
+[Mon Apr 13 16:31:50.531546 2015] [proxy:error] [pid 46001:tid 140002537092864] AH00959: ap_proxy_connect_backend disabling worker for (cchumuser01i.in2p3.fr) for 30s
+[Mon Apr 13 16:31:50.531977 2015] [proxy_ajp:error] [pid 46001:tid 140002537092864] [client 81.194.30.219:43114] AH00896: failed to make connection to backend: cchumuser01i.in2p3.fr
+[Mon Apr 13 16:46:35.027234 2015] [proxy:error] [pid 46003:tid 140002505623296] (111)Connection refused: AH00957: AJP: attempt to connect to 192.168.33.110:12710 (cchumuser01i.in2p3.fr) failed
+[Mon Apr 13 16:46:35.028980 2015] [proxy:error] [pid 46003:tid 140002505623296] AH00959: ap_proxy_connect_backend disabling worker for (cchumuser01i.in2p3.fr) for 30s
+[Mon Apr 13 16:46:35.029522 2015] [proxy_ajp:error] [pid 46003:tid 140002505623296] [client 81.194.30.218:57959] AH00896: failed to make connection to backend: cchumuser01i.in2p3.fr

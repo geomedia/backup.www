@@ -1,0 +1,2 @@
+[Fri Jul 03 16:51:13.644288 2015] [proxy_ajp:error] [pid 18151:tid 139663347914496] [client 83.153.95.169:33481] AH00992: ajp_read_header: ajp_ilink_receive failed, referer: http://geomedia.huma-num.fr/RSSAgregate/item
+[Fri Jul 03 16:51:13.645180 2015] [proxy_ajp:error] [pid 18151:tid 139663347914496] (70007)The timeout specified has expired: [client 83.153.95.169:33481] AH00878: read response failed from 192.168.33.105:12709 (cchumweb05i), referer: http://geomedia.huma-num.fr/RSSAgregate/item

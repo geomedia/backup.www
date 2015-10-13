@@ -1,0 +1,2 @@
+90.61.30.15 134.158.33.104 - - [12/Jun/2015:07:36:19 +0200] "GET /RSSAgregate/index HTTP/1.1" 200 595 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:38.0) Gecko/20100101 Firefox/38.0" 
+90.61.30.15 134.158.33.104 - - [12/Jun/2015:07:36:20 +0200] "GET /favicon.ico HTTP/1.1" 404 209 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:38.0) Gecko/20100101 Firefox/38.0" 

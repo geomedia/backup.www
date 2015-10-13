@@ -1,0 +1,6 @@
+66.249.78.24 134.158.33.103 - - [16/Sep/2015:18:49:21 +0200] "GET /robots.txt HTTP/1.1" 404 208 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 
+66.249.78.10 134.158.33.103 - - [16/Sep/2015:18:49:21 +0200] "GET /RSSAgregate/flux/highchart HTTP/1.1" 200 606 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 
+66.249.78.17 134.158.33.103 - - [16/Sep/2015:18:49:46 +0200] "GET /RSSAgregate/index HTTP/1.1" 200 595 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 
+66.249.78.24 134.158.33.103 - - [16/Sep/2015:18:52:40 +0200] "GET /RSSAgregate/flux/highchart?null HTTP/1.1" 200 606 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 
+66.249.78.17 134.158.33.103 - - [16/Sep/2015:18:55:40 +0200] "GET /RSSAgregate/index?null HTTP/1.1" 200 595 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 
+66.249.78.10 134.158.33.103 - - [16/Sep/2015:19:51:46 +0200] "GET /RSSAgregate/ress/style.css HTTP/1.1" 200 3491 "http://geomedia.huma-num.fr/RSSAgregate/flux/highchart" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 

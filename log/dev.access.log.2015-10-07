@@ -1,0 +1,3 @@
+193.55.47.28 134.158.33.104 - - [06/Oct/2015:16:15:20 +0200] "GET /manager/ HTTP/1.1" 404 206 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.65 Safari/537.36" 
+193.55.47.28 134.158.33.104 - - [06/Oct/2015:16:15:20 +0200] "GET /favicon.ico HTTP/1.1" 404 209 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.65 Safari/537.36" 
+193.55.47.28 134.158.33.104 - - [06/Oct/2015:16:57:27 +0200] "GET /manager/ HTTP/1.1" 404 206 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.65 Safari/537.36" 
